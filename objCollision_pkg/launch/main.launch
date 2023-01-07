@@ -1,0 +1,7 @@
+<launch>
+
+
+    <node name="detector" pkg="objCollision_pkg" type="detector" output="screen"/>
+    <node name="risk_assessor" pkg="objCollision_pkg" type="risk_assessor" output="screen"/>
+
+</launch>

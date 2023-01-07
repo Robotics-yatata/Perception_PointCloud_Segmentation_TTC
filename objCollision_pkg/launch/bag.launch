@@ -1,0 +1,9 @@
+<launch>
+
+    <!--
+        <node name = "rviz" pkg = "rviz" type = "rviz"/>
+    -->
+    <node pkg="rosbag" type="play" name="asv_trajectory" output="screen"
+        args="--clock $(find objCollision_pkg)/bag/asv_trajectory.bag"/>
+
+</launch>
